@@ -37,6 +37,7 @@ namespace SearchTxtText
                     {
                         //if exist and then get the file and sidplay to listbox
                         listBox1.Items.Add(Path.GetFileName(file)); 
+                        break;
                     }
                 } 
             }
